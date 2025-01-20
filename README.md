@@ -36,7 +36,7 @@ const user = Optional.ofNullable(getUser())
 ## Installation 📦
 
 ```bash
-npm install optionaljs
+npm install optionals-js
 ```
 
 ## Usage 💡
@@ -44,7 +44,7 @@ npm install optionaljs
 ### Basic Usage
 
 ```javascript
-const Optional = require('optionaljs');
+const Optional = require('optionals-js');
 
 // Creating Optionals
 const present = Optional.of("hello");          // Contains non-null value
